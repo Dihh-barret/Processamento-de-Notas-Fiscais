@@ -56,7 +56,7 @@ def processar_pasta(pasta_raiz):
     return pd.DataFrame(resultados) if resultados else pd.DataFrame()
 
 def main():
-    pasta_raiz = r"C:\Users\diogo\OneDrive - Sociedade Educacional do Espírito Santo - UVV\Documents\MEI Diogo\NFs emitidas"
+    pasta_raiz = r"Sua pasta"
     df_resultados = processar_pasta(pasta_raiz)
     
     if df_resultados.empty:
